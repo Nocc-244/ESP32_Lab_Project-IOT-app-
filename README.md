@@ -13,7 +13,7 @@ Dự án mở rộng điều khiển 2 đèn LED (1 Built-in LED và 1 External 
 
 ## 2. Sơ đồ phần cứng & Kết nối chân (Pin Mapping)
 - **LED 1 (Built-in LED):** Chân `GPIO 2`
-- **LED 2 (External LED trên test board):** Chân `GPIO 4` (Nối qua điện trở 220Ω xuống GND)
+- **LED 2 (External LED trên test board):** Chân `GPIO 4` (Nối qua điện trở 1kΩ xuống GND)
 - **Nút bấm ngoài (External Push Button):** Chân `GPIO 13` (Nối chân còn lại xuống GND, kích hoạt `INPUT_PULLUP`)
 
 ---
